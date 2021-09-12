@@ -16,7 +16,6 @@ class Solution{
 
     }
     void deleteMid(stack<int> &s, int sizeOfStack){
-        int bottom = s.top();
         s.pop();
         deleteMiddle(s, sizeOfStack, bottom);
     }
